@@ -8,7 +8,7 @@ namespace LoanManager.Models
 {
     public class Loan : BaseModel
     {
-        [Required]
+        [Required, Range(0, 10000)]
         public int Amount { get; set; }
 
         [Required]

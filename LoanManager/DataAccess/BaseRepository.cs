@@ -59,4 +59,5 @@ namespace LoanManager.DataAccess
         {
             _loanManagerDbContext.Entry(model).State = EntityState.Modified;
         }
+    }
 }
